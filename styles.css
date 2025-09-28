@@ -1,0 +1,110 @@
+.container {
+      width: 1200px;
+      height: 1000px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr); 
+      grid-template-rows: repeat(4, 1fr);
+      gap: 10px;
+    }
+    .container div {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+     
+    .body {
+      background-color: rgb(138, 236, 163);
+    }
+
+    .one {
+     background-image: url('images/napa.JPG');
+    }
+
+    .two {
+    background-image: url('images/bday.JPG');
+   
+    }
+
+    .three {
+      background-image: url('images/jamaica.JPG');
+    }
+
+    .four {
+      background-image: url('images/sunset.JPG');
+    }
+
+    .five {
+      background-image: url('images/formal.png');
+    }
+
+    .six {
+      background-image: url(images/beach.jpeg);
+    }
+    .seven {
+      background-image: url('images/momsbday.JPG');
+    }   
+    .eight {
+      background-image: url('images/ny.JPG');
+    }
+    .nine {
+      background-image: url('images/spring.JPG');
+    }
+    .ten {
+      background-image: url('images/summer.JPG');
+    }
+    .eleven {
+      background-image: url('images/christmas2.png');
+    }
+    .twelve {   
+      background-image: url('images/riverside.png');
+    }
+    .thirteen {
+      background-image: url('images/lastday.png');
+    }
+    .fourteen {
+      background-image: url('images/20th.png');
+    }
+    .fifteen {          
+      background-image: url('images/fam.png');
+    }
+    .sixteen {
+      background-image: url('images/cruise.jpeg');
+    }
+    .seventeen {
+      background-image: url('images/summerhangout.png');
+    }
+    .eighteen {
+      background-image: url('images/recruitment.JPG');
+    }
+    .nineteen {
+      background-image: url('images/summerpicnic.JPG');
+    }
+    .twenty {
+    background-image: url('images/4th.JPG');
+     background-size: cover; 
+    background-position: 20% center;
+    }   
+    .container div:hover{
+       background-color: rgba(138, 236, 163, 0.546);
+       background-image: none;
+    }
+    .container p {
+  display: none;
+  color: rgb(32, 6, 95);
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.container > div:hover p {
+  display: block;
+}
+    
+    .container > div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
